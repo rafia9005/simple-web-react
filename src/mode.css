@@ -1,0 +1,48 @@
+body.active {
+  background: #1b1d24;
+  color: white;
+  transition: all .3s ease;
+}
+body.active nav {
+  background: #374151;
+}
+body.active nav h1 a,
+body.active nav ul li a,
+body.active .hero,
+body.active nav .btn {
+  color: white;
+}
+body.active nav ul{
+    background: #374151a2;
+}
+body.active .hero p,
+.about p{
+    font-weight: 300;
+}
+body.active .hero .btn a{
+    color: black;
+    background: white;
+}
+body.active .hero .btn a:nth-child(2){
+    background: transparent;
+    color: white;
+}
+body.active #mode{
+    background: white;
+    color: black;
+}
+body.active{
+    color: white;
+}
+body.active .about .box{
+  background: #242930;
+}
+footer{
+  background:#1c232e;
+}
+body.active .timeline-section h1, body.active .timeline-section p{
+  font-weight: 300;
+}
+body.active .timeline-items::before{
+  background: white;
+}
